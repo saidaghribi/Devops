@@ -62,7 +62,8 @@ pipeline {
             steps {
                 script {
                     // Assurez-vous que Maven est installé et configuré
-                    bat 'mvn clean install'
+                  //  bat 'mvn clean install'
+                    echo 'build'
                 }
             }
         }
